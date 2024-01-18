@@ -276,7 +276,7 @@
     "ars_nouveau.glyph_desc.duration_down": "Reduz a duração de feitiços como efeitos de poção, atraso, sinal de redstone e outros.",
     "ars_nouveau.glyph_desc.ender_inventory": "Abre seu baú de ender de qualquer lugar.",
     "ars_nouveau.glyph_desc.evaporate": "Exclui fluidos em uma área. Pode ser expandido com AOE.",
-    "ars_nouveau.glyph_desc.exchange": "Quando usado em blocos, troca os blocos na hotbar do jogador pelos blocos atingidos, como se fossem extraídos com Toque Suave. Pode ser ampliado com AOE, e o Amplificar é necessária para trocar blocos mais resistentes. Quando aplicado em entidades, as posições do lançador e da entidade atingida são trocadas.",
+    "ars_nouveau.glyph_desc.exchange": "Quando usado em blocos, troca os blocos na hotbar do jogador pelos blocos atingidos, como se fossem extraídos com Toque Suave. Pode ser ampliado com AOE, e Amplificar é necessário para trocar blocos mais resistentes. Quando aplicado em entidades, as posições do lançador e da entidade atingida são trocadas.",
     "ars_nouveau.glyph_desc.explosion": "Provoca uma explosão no local. O Amplificar aumenta o dano e o tamanho em uma pequena quantidade, enquanto AOE aumenta significativamente o tamanho da explosão, sem afetar o dano.",
     "ars_nouveau.glyph_desc.extend_time": "Prolonga a duração dos feitiços, incluindo buffs, presas e invocações",
     "ars_nouveau.glyph_desc.extract": "Aplica um efeito de toque suave para Quebrar e faz com que Explosão não destrua os blocos que caem. Não pode ser combinado com Fortuna.",
