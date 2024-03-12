@@ -3,7 +3,7 @@ name: Atualizar pasta quando o repositório for atualizado
 on:
   push:
     branches:
-      - main  # Substitua "main" pelo nome da sua branch principal
+      - main
 
 jobs:
   update_folder:
@@ -15,5 +15,5 @@ jobs:
       
     - name: Atualizar a pasta
       run: |
-        # Crie um comando que copie ou sincronize os arquivos da pasta desejada
-        cp -r test C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta\test
+        mkdir -p "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta\test"
+        cp -r test/* "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta\test/"
