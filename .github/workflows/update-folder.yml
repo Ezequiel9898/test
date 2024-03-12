@@ -3,7 +3,7 @@ name: Update Folder
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   update:
@@ -15,5 +15,5 @@ jobs:
       
       - name: Update Folder
         run: |
-          cd path/to/your/folder
+          cd C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta
           git pull
