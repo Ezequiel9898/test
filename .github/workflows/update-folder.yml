@@ -1,20 +1,19 @@
-name: Update Folder
+name: Atualizar pasta quando o repositório for atualizado
 
 on:
   push:
     branches:
-      - main
+      - main  # Substitua "main" pelo nome da sua branch principal
 
 jobs:
-  update:
+  update_folder:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Verificar o repositório
+      uses: actions/checkout@v2
       
-      - name: Update Folder
-        run: |
-          cd "/home/runner/work/test/test"  # Caminho onde o repositório é clonado
-          cp -r "test/Aonde parei" "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta"  # Copia os arquivos da pasta1 para a pasta local
-          cp -r "caminho/para/repositório/pasta2" "/caminho/para/sua/pasta"  # Copia os arquivos da pasta2 para a pasta local
+    - name: Atualizar a pasta
+      run: |
+        # Crie um comando que copie ou sincronize os arquivos da pasta desejada
+        cp -r test C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta\test
