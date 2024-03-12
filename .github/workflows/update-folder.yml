@@ -16,4 +16,4 @@ jobs:
     - name: Atualizar a pasta
       run: |
         mkdir -p "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta\test"
-        cp -r test/* "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta\test/"
+        cp -r test/test/* "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta\test/"
