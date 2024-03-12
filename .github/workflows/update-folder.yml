@@ -15,5 +15,5 @@ jobs:
       
       - name: Update Folder
         run: |
-          cd C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta
+          cd "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta"  # Coloque o caminho para a sua pasta entre aspas
           git pull
