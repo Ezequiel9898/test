@@ -1,0 +1,19 @@
+name: Update Folder
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Update Folder
+        run: |
+          cd path/to/your/folder
+          git pull
