@@ -15,5 +15,6 @@ jobs:
       
       - name: Update Folder
         run: |
-          cd "C:\Users\Ezequiel\OneDrive\Área de Trabalho\Nova pasta"  # Coloque o caminho para a sua pasta entre aspas
+          cd "/home/runner/work/test/test"  # Caminho onde o repositório é clonado
+          cd "caminho/para/sua/pasta"  # Caminho para a sua pasta, relativo ao diretório do repositório
           git pull
